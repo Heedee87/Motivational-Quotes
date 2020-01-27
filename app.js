@@ -5,9 +5,6 @@ const confidenceBtn = document.querySelector(".confidence");
 
 const content = document.querySelector(".content");
 
-const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
-const recognition = new SpeechRecognition();
-recognition.lang = "en-US";
 
 happyBtn.addEventListener("click", () => {
   readOutLoud(happiness);
